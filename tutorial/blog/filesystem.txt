@@ -1,0 +1,1 @@
+blog(app name) -> templates -> blog -> template.html
