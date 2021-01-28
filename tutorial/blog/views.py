@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
- 
+
 posts = [
     {
         'author': 'CoreyMS',
@@ -13,7 +13,6 @@ posts = [
         'title': 'Blog Post 1',
         'content': 'First post content',
         'date_posted': 'November 26, 2020'
-
     }
 ]
 
