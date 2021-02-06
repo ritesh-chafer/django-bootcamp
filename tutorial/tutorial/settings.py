@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
+    'snippets.apps.SnippetsConfig',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'django.contrib.admin',
